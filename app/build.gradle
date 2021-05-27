@@ -53,6 +53,7 @@ android {
 
 
 dependencies {
+  compileOnly 'com.github.pengrad:jdk9-deps:1.0'
   implementation fileTree(include: ['*.jar'], dir: 'libs')
   implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.2.71'
   implementation 'org.jetbrains.kotlin:kotlin-reflect:1.2.71'
